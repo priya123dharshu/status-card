@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+}
+.container{
+    width:70%;
+    background-color: hsl(244, 38%, 16%);
+    margin: auto; 
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top:130px ;
+}
+.card{
+    display: flex; 
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+.contant{
+    color: hsl(0, 0%, 100%);
+    padding: 60px; 
+    width: 48%;
+}
+.image{
+    display: flex;
+    width: 60%;
+    background-color: hsl(277, 87%, 47%);
+}
+.color{
+    width: 100%;
+    opacity: 0.6;
+}
+#firstlist ul{
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+#firstlist{
+    width: 80%;
+}
+
+.list1{
+    display: flex;
+    margin-top: 70px;
+    padding: 0;
+    gap: 50px;
+    width: 80%;
+} 
+ h1{
+    width: 100%;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+ }
+ p{
+    width: 100%;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+
+ }
+ .u1 h2{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+ }
+ .u1 li{
+    text-transform: uppercase;
+ }
+ .list2{
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 13px;
+ }
+ @media(max-width:425px){
+    .container{
+        width: 87%;
+        padding: 0;
+        margin: 27px;
+    } 
+    .contant{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .image{
+        width: 100%;
+    }
+    .card{
+        /* width: 100%; */
+        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+        /* min-width: 425px; */
+    }
+    .list1{
+        flex-direction: column;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }   
+    h1{
+        margin: 30px;
+        width: 80%;
+        margin-left: 35px;
+    }
+    p{
+        width: 70%;
+        margin-left: 50px;
+    }
+ }
